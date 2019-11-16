@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-----------------------------------scrollbar----------------------------------*/
+/*html {
+  			background: #1A1A1A;
+  			height: 100%;
+ 			overflow: hidden;
+		}*/
+body {
+  height: 100%;
+  /*	    	background: whitesmoke;
+//  		overflow: scroll;
+// 			margin: 0 auto;
+//  			padding: 0 3em 2em;
+ // 			font: 100%/1.4 serif;
+ // 			border: 1px solid rgba(0,0,0,0.25) */
+}
+/*	p {
+  			margin: 0 0 1.5em;
+		}*/
+
+body::-webkit-scrollbar {
+  width: 0.4em;
+}
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: chartreuse;
+  outline: 5px solid #1a1a1a;
+}
+/*----------------------------------sticky navbar--------------------------------------*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/*------------------------------------------------------------------------------------*/
+body {
+  background-color: #121212;
+  /*background: rgba(70, 72, 82, 0.3);*/ /*try to darken bg image by finding out what code to use*/
+  background-image: url(images/dark_img1.jpg);
+  /*background-image: url(images/hexagon.png);*/
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 1920px 1080px;
+  overflow-y: scroll;
+}
+
+.Menu {
+  /*position:fixed;  /*attempting fixed top menu*/
+  top: 0;
+  margin-top: 0;
+  list-style-type: none;
+  margin: 0; /*automatically removes dot from li tags, since there's no space*/
+  padding: 0;
+  overflow: hidden; /* for scrolling*/
+  background-color: black;
+  z-index: 1;
+}
+
+li {
+  float: left;
+}
+
+li a,
+.dropbtn,
+#menu_login_btn {
+  /*list-style-type: none;*/
+  color: darkgray;
+  background-color: black;
+  padding: 15px 15px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+}
+#menu_login_btn {
+  height: 48px; /*in order to be same size as other boxes in the menu, such as About, Go to...*/
+  font-family: "serif";
+  font-size: unset;
+}
+
+li a:hover,
+.dropbtn:hover,
+#menu_login_btn:hover {
+  background-color: chartreuse;
+  color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown_content {
+  display: none;
+  width: auto;
+  position: absolute;
+  z-index: 1; /*depth of the content*/
+}
+.dropdown_content a {
+  color: darkgray;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  font-weight: bold;
+}
+.dropdown_content a:hover {
+  background-color: chartreuse;
+  color: black;
+}
+.dropdown:hover .dropdown_content {
+  background-color: black;
+  display: block;
+}
+
+h1,
+h2 {
+  color: chartreuse;
+}
+h3 {
+  color: cornsilk;
+  font-size: 30px;
+  font-style: italic;
+}
+[class~="object"] {
+  position: relative;
+  display: block;
+  border: 3px solid chartreuse;
+  overflow: auto;
+  padding: 40px;
+  margin: 20px 20px;
+  height: auto;
+}
+
+/*[class~="ob1"]{ height: 500px; }
+	[class~="ob2"]{ height: 500px; }
+	[class~="ob3"]{ height: 535px; }
+	[class~="ob4"]{ height: auto; }
+	[class~="ob5"]{ height: 700px; }
+	[class~="ob6"]{ height: 700px; }*/
+
+.img1,
+.img3,
+.img5 {
+  float: left;
+  padding-right: 30px;
+}
+.img2,
+.img4 {
+  float: right;
+  padding-left: 30px;
+}
+p {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 20px;
+  color: cornsilk;
+  word-spacing: 5px;
+  line-height: 30px;
+  text-indent: 50px;
+}
+
+img {
+  height: 100%;
+  display: inline-block;
+} /* remove height after finishing all image resizing*/
+.img1 {
+  width: auto;
+  height: 500px;
+}
+.img2 {
+  width: auto;
+  height: 500px;
+}
+.img3 {
+  width: auto;
+  height: 474px;
+}
+.img4 {
+  width: auto;
+  height: 500px;
+}
+.img5 {
+  width: auto;
+  height: 640px;
+}
+
+/*-----------------------------------------hovering login style----------------------------------*/
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.logins_buttons,
+.cancelbtn {
+  background-color: rgba(120, 240, 0, 1);
+  color: black;
+  font-size: unset;
+  font-family: serif;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.logins_buttons:hover,
+.cancelbtn:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the position of the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #202020;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+  max-width: 500px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #eee;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}

@@ -1,0 +1,1 @@
+show error message if the name that is wanted to be deleted is not found in the database
