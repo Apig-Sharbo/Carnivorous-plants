@@ -1,0 +1,71 @@
+html
+{
+    background: #1A1A1A;
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    height: 100%;
+//	    	background: whitesmoke;
+    overflow: scroll;
+    margin: 0 auto;
+    padding: 0 3em 2em;
+    font: 100%/1.4 serif;
+    border: 1px solid rgba(0,0,0,0.25)
+}
+p {
+    margin: 0 0 1.5em;
+}
+
+body::-webkit-scrollbar {
+    width: .4em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: chartreuse;
+    outline: 5px solid #1A1A1A;
+}
+/*-------------------------------------end of scrollbar--------------------------------*/
+
+body{
+    background-color:#121212;
+    /*background: rgba(70, 72, 82, 0.3);*/      /*try to darken bg image by finding out what code to use*/
+    background-image: url(../images/dark_img1.jpg);
+    /*background-image: url(images/hexagon.png);*/
+    background-size: 1920px 1080px;
+    background-repeat:repeat;
+    background-position: center;
+}
+
+.backbtn{
+    color:darkgray;
+    padding: 15px 15px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.backbtn:hover{
+    background-color: chartreuse;
+    color:black;
+}
+.btn_contact
+{
+    text-decoration-color: chartreuse;
+    text-decoration-style: solid;
+    color:cornsilk;
+    font-weight: 500;
+    font-style: oblique;
+}
+.btn_contact:hover
+{
+    color:chartreuse;
+}
+
+h1,h2{color:chartreuse;}
+p{color:cornsilk; font-size: 18px;}
