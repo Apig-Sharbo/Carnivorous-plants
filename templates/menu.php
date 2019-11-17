@@ -11,5 +11,5 @@
     </li>
     <li><a href="https://www.google.com" target="new">Google</a></li>
     <li><button class="menu_login_btn" id="menu_login_btn" onclick="document.getElementById('id01').style.display='inline'" >Login</button></li>
-    <li><a href="../About.html">About</a></li>
+    <li><a href="About.html">About</a></li>
 </ul>

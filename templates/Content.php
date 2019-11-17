@@ -3,7 +3,7 @@
 <!------------------------------------------1st thing--------------------------------------------->
 <h2 id="1">1. Corpse Flower, Titan Arum</h2>
 <div class="object ob1">
-    <img src="images/Titan_arum.JPG" title="Amorphophallus titanum" alt="N/A lol" class="img1">
+    <img src="../images/Titan_arum.JPG" title="Amorphophallus titanum" alt="N/A lol" class="img1">
     <h3>Amorphophallus titanum</h3>
     <p class="descrp1">
 
@@ -18,7 +18,7 @@
 <!------------------------------------------2nd thing--------------------------------------------->
 <h2 id="2">2. Elephant-Foot Yam</h2>
 <div class="object ob2">
-    <img src="images/Amorphophallus paeoniifolius.jpg" title="Amorphophallus paeoniifolius" alt="N/A lol" class="img2">
+    <img src="../images/Amorphophallus paeoniifolius.jpg" title="Amorphophallus paeoniifolius" alt="N/A lol" class="img2">
     <h3>Amorphophallus paeoniifolius</h3>
     <p class="descrp2">
 
@@ -33,7 +33,7 @@
 <!------------------------------------------3rd thing--------------------------------------------->
 <h2 id="3">3. Rafflesia: Another "Corpse Flower"</h2>
 <div class="object ob3">
-    <img src="images/Rafflesia arnoldii.jpg" title="Rafflesia arnoldii" alt="N/A lol" class="img3">
+    <img src="../images/Rafflesia arnoldii.jpg" title="Rafflesia arnoldii" alt="N/A lol" class="img3">
     <h3>Rafflesia arnoldii</h3>
     <p class="descrp3">
 
@@ -52,7 +52,7 @@
 <!------------------------------------------4th thing--------------------------------------------->
 <h2 id="4">4. Venus Flytrap</h2>
 <div class="object ob4">
-    <img src="images/venus-flytrap.jpg" title="Dionaea muscipula" alt="N/A lol" class="img4">
+    <img src="../images/venus-flytrap.jpg" title="Dionaea muscipula" alt="N/A lol" class="img4">
     <h3>Dionaea muscipula</h3>
     <p class="descrp4">
 
@@ -74,7 +74,7 @@
 <!------------------------------------------5th thing--------------------------------------------->
 <h2 id="5">5. Tropical Pitcher Plants</h2>
 <div class="object ob5">
-    <img src="images/Nepenthes species.jpg" title="Nepenthes species" alt="N/A lol" class="img5">
+    <img src="../images/Nepenthes species.jpg" title="Nepenthes species" alt="N/A lol" class="img5">
     <h3>Nepenthes species</h3>
     <p class="descrp5">
 

@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cffbb0d2-48fc-4abe-bdcc-d50aba161f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Content.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Floter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/loginButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursePr.php" beforeDir="false" afterPath="$PROJECT_DIR$/CoursePr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginButton.php" beforeDir="false" afterPath="$PROJECT_DIR$/loginButton.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Content.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +39,14 @@
     <expand />
     <select />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -41,6 +54,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/testing-redux" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -80,7 +94,7 @@
       <workItem from="1570980471802" duration="539000" />
       <workItem from="1573933364406" duration="439000" />
       <workItem from="1573942392338" duration="46000" />
-      <workItem from="1573992667122" duration="2641000" />
+      <workItem from="1573992667122" duration="5413000" />
     </task>
     <servers />
   </component>
