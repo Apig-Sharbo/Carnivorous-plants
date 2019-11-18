@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cffbb0d2-48fc-4abe-bdcc-d50aba161f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/About.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursePr.php" beforeDir="false" afterPath="$PROJECT_DIR$/CoursePr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/projectCSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursePr.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Content.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Content.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +48,7 @@
   <component name="ProjectId" id="1S4BCTcggB2GpaRNQRXvsHJ910D" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/testing-redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -93,7 +95,8 @@
       <workItem from="1573933364406" duration="439000" />
       <workItem from="1573942392338" duration="46000" />
       <workItem from="1573992667122" duration="5413000" />
-      <workItem from="1574004933021" duration="194000" />
+      <workItem from="1574004933021" duration="350000" />
+      <workItem from="1574102640523" duration="349000" />
     </task>
     <servers />
   </component>
