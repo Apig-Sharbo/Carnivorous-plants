@@ -1,0 +1,59 @@
+.backbtn {
+    color: darkgray;
+    padding: 15px 15px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.backbtn:hover {
+    background-color: chartreuse;
+    color: black;
+}
+
+body {
+    background-color: #121212;
+    /*background: rgba(70, 72, 82, 0.3);*/ /*try to darken bg image by finding out what code to use*/
+    background-image: url(images/dark_img1.jpg);
+    /*background-image: url(images/hexagon.png);*/
+    background-size: 1920px 1080px;
+    background-repeat: repeat;
+    background-position: center;
+    color: chartreuse;
+    font-size: large;
+    padding: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.class_print_table {
+    color: cornsilk;
+}
+
+input {
+    background-color: cornsilk;
+}
+
+.error {
+    color: #FF0000;
+}
+
+.db_buttons {
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    border-width: 2px;
+    border-style: solid; /*this fixes the bordercolorlight bordercolordark problem */
+    border-color: chartreuse;
+    font-family: serif;
+    font-size: medium;
+    font-weight: bold;
+    color: cornsilk;
+}
+
+.db_buttons:hover {
+    background-color: chartreuse;
+    color: black;
+    cursor: pointer;
+}

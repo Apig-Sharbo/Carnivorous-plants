@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb {
 body {
   background-color: #121212;
   /*background: rgba(70, 72, 82, 0.3);*/ /*try to darken bg image by finding out what code to use*/
-  background-image: url(images/dark_img1.jpg);
+  background-image: url(../images/dark_img1.jpg);
   /*background-image: url(images/hexagon.png);*/
   background-repeat: repeat;
   background-position: center;
