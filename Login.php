@@ -190,7 +190,7 @@ if ($sub_delete == "Delete") {
 
 
 ?>
-<a href="CoursePr.php">
+<a href="index.php">
     <div class="backbtn">&#x21E6 Go Back</div>
 </a>
 <br>
